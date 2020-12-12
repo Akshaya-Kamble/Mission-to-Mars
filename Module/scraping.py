@@ -16,7 +16,9 @@ import datetime as dt
 
 def scrape_all():
     # Initiate headless driver for deployment
-    browser = Browser("chrome", executable_path="chromedriver", headless=True)
+    crome_path = "C:/Users/aksha/Downloads/chromedriver_win32/chromedriver.exe"
+    #browser = Browser("chrome", executable_path="chromedriver", headless=True)
+    browser = Browser("chrome", executable_path=crome_path, headless=True)
 
     news_title, news_paragraph = mars_news(browser)
 
@@ -73,7 +75,7 @@ def featured_image(browser):
     browser.visit(url)
 
     # Find and click the full image button
-    full_image_elem = browser.find_by_id('full_image')
+    full_image_elem = browser.find_by_id('full_image')[0]
     full_image_elem.click()
 
     # Find the more info button and click that
@@ -118,4 +120,4 @@ if __name__ == "__main__":
     # If running as script, print scraped data
     print(scrape_all())    
 
-browser.quit()
+#browser.quit()

@@ -1,3 +1,4 @@
+
 from flask import Flask, render_template
 from flask_pymongo import PyMongo
 import scraping
@@ -21,4 +22,4 @@ def scrape():
    return "Scraping Successful!"
 
 if __name__ == "__main__":
-   app.run()      
+   app.run(debug=True)      
