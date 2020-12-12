@@ -57,7 +57,8 @@ The below code will look up for data in the required html tags and append the ab
     		browser.back()
     
 	print(hemisphere_image_urls)
-	
+```
+
 #### d. The final screen shot for the list hemisphere_image_urls which contains 4 dictionaries that have the respective image url and title.
 [Image][1]
 
@@ -134,7 +135,7 @@ The below code will look up for data in the required html tags and append the ab
 ```
 
 #### f. After scraping the data, the webpage has the full-resolution images and the titles of the four hemisphere images.
-[final website][3]
+[Final website][3]
 
 ### Deliverable 3: Add Bootstrap 3 Components
 
@@ -148,6 +149,6 @@ The below code will look up for data in the required html tags and append the ab
 	 b. Change font size of Mars Fact table and add border.
 
 
-[1]:[]
-[2]:[]
-[3]:[]
+[1]:https://github.com/Akshaya-Kamble/Mission-to-Mars/blob/main/Challenge/Reference%20images/1.PNG
+[2]:https://github.com/Akshaya-Kamble/Mission-to-Mars/blob/main/Challenge/Reference%20images/2.PNG
+[3]:https://github.com/Akshaya-Kamble/Mission-to-Mars/blob/main/Challenge/Reference%20images/final%20website.PNG
